@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
-//Name: GenericMesh_01.ma
-//Last modified: Thu, Feb 08, 2018 09:26:02 AM
+//Name: GenericMesh_02.ma
+//Last modified: Thu, Feb 08, 2018 09:26:15 AM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -27008,4 +27008,4 @@ connectAttr "pSphereShape3.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "BustShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId94.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId95.msg" ":initialShadingGroup.gn" -na;
-// End of GenericMesh_01.ma
+// End of GenericMesh_02.ma

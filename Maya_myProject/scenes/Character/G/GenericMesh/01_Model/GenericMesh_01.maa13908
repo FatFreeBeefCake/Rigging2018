@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: GenericMesh_01.ma
-//Last modified: Thu, Feb 08, 2018 09:26:02 AM
+//Last modified: Thu, Feb 08, 2018 09:25:53 AM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
