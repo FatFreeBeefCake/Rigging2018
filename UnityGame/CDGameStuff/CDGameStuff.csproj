@@ -89,6 +89,33 @@
   <ItemGroup>
     <Compile Include="Assets\AnimBehaves.cs" />
     <Compile Include="Assets\IdleBehaves.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Elements\AttackElement.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Elements\Elemental.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Events\GameEvent.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Events\GameEventListener.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Sets\RuntimeSet.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Sets\Thing.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Sets\ThingDisabler.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Sets\ThingMonitor.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Sets\ThingRuntimeSet.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\AnimatorParameterSetter.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\AudioParameterSetter.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\AudioVolumeSetter.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\DamageDealer.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\FloatReference.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\FloatVariable.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\ImageFillSetter.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\KeyboardMover.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\SimpleUnitHealth.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\SliderSetter.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\StringVariable.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\TextReplacer.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\UnitHealth.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\UnityEventRaiser.cs" />
+    <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\VariableAudioTrigger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\Unite2017\ProjectSettings\ProjectVersion.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
