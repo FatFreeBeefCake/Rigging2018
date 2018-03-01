@@ -87,8 +87,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AnimBehaves.cs" />
-    <Compile Include="Assets\IdleBehaves.cs" />
     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Elements\AttackElement.cs" />
     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Elements\Elemental.cs" />
     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Events\GameEvent.cs" />
@@ -113,6 +111,10 @@
     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\UnitHealth.cs" />
     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\UnityEventRaiser.cs" />
     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\VariableAudioTrigger.cs" />
+    <Compile Include="Assets\Scriptsss\AnimBehaves.cs" />
+    <Compile Include="Assets\Scriptsss\Box.cs" />
+    <Compile Include="Assets\Scriptsss\BoxDesplay.cs" />
+    <Compile Include="Assets\Scriptsss\IdleBehaves.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Unite2017\ProjectSettings\ProjectVersion.txt" />
