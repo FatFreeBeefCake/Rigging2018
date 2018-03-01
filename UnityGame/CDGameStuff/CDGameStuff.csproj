@@ -111,10 +111,17 @@
     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\UnitHealth.cs" />
     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\UnityEventRaiser.cs" />
     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\VariableAudioTrigger.cs" />
+    <Compile Include="Assets\Scriptsss\ActionScript.cs" />
     <Compile Include="Assets\Scriptsss\AnimBehaves.cs" />
     <Compile Include="Assets\Scriptsss\Box.cs" />
     <Compile Include="Assets\Scriptsss\BoxDesplay.cs" />
+    <Compile Include="Assets\Scriptsss\CameraFollow.cs" />
+    <Compile Include="Assets\Scriptsss\ChangeSpeed.cs" />
+    <Compile Include="Assets\Scriptsss\Data.cs" />
+    <Compile Include="Assets\Scriptsss\GameData.cs" />
     <Compile Include="Assets\Scriptsss\IdleBehaves.cs" />
+    <Compile Include="Assets\Scriptsss\PlayerMoveScript.cs" />
+    <Compile Include="Assets\Scriptsss\StaticVar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Unite2017\ProjectSettings\ProjectVersion.txt" />
