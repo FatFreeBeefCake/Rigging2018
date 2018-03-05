@@ -11,11 +11,10 @@ public class PlayerMoveScript : MonoBehaviour {
     CharacterController cc;
 
     Vector3 tempMove;
-    Vector3 tempMoveZ;
+
     Vector3 Fall;
 
     private UnityAction OnLandAction;
-    private Image healthbar;
 
     public float speed = 0.5f;
     public float gravity = 40;
@@ -27,37 +26,25 @@ public class PlayerMoveScript : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        Health = 100;
-        MaxHealth = 100;
 
         cc = GetComponent<CharacterController>();
-        
     }
+
     void Update()
     {
-        ActionScript.MoveActionX += Move;
-        ActionScript.MoveActionZ += MoveZ;
-        ActionScript.Run = Run;
-        ActionScript.Walk = Walk;
-        ActionScript.JumpAction = Jump;
-    }
-
-    private void MoveZ(float _movement)
-    {
-        tempMove.z = _movement * speed;
+        transform.Rotate(0, Input.GetAxis("Rotate") * 60 * Time.deltaTime, 0);
+        if (cc.isGrounded)
+        {
+            tempMove = new Vector3(0, 0, Input.GetAxis("Vertical"));
+            tempMove = transform.TransformDirection(tempMove);
+            tempMove *= speed;
+            if (Input.GetButton("Jump"))
+                tempMove.y = JumpHeight;
+        }
         cc.Move(tempMove * Time.deltaTime);
-    }
+        tempMove.y -= gravity * Time.deltaTime;
 
-    private void Walk()
-    {
-        speed = 0.5f;
     }
-
-    private void Run()
-    {
-        speed = speed * 2;
-    }
-
     private void Jump ()
     {
 
@@ -73,14 +60,9 @@ public class PlayerMoveScript : MonoBehaviour {
     // Update is called once per frame
     void Move(float _movement)
     {
-
-      
-        tempMove.x = _movement * speed;
-        cc.Move(tempMove * Time.deltaTime);
-
         if (!cc.isGrounded)
         {
-            tempMove.y -= gravity * Time.deltaTime;
+         
             if (OnLandAction == null)
             {
                 OnLandAction += restGravity;

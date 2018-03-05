@@ -51,46 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoogleVR\Scripts\Audio\FmodGvrAudio.cs" />
-     <Compile Include="Assets\GoogleVR\Scripts\Audio\FmodGvrAudioRoom.cs" />
-     <Compile Include="Assets\ResonanceAudio\Scripts\FmodResonanceAudio.cs" />
-     <Compile Include="Assets\ResonanceAudio\Scripts\FmodResonanceAudioRoom.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Elements\AttackElement.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Elements\Elemental.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Events\GameEvent.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Events\GameEventListener.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Sets\RuntimeSet.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Sets\Thing.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Sets\ThingDisabler.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Sets\ThingMonitor.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Sets\ThingRuntimeSet.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\AnimatorParameterSetter.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\AudioParameterSetter.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\AudioVolumeSetter.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\DamageDealer.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\FloatReference.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\FloatVariable.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\ImageFillSetter.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\KeyboardMover.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\SimpleUnitHealth.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\SliderSetter.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\StringVariable.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\TextReplacer.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\UnitHealth.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\UnityEventRaiser.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\VariableAudioTrigger.cs" />
      <Compile Include="Assets\Scriptsss\ActionScript.cs" />
      <Compile Include="Assets\Scriptsss\AnimBehaves.cs" />
      <Compile Include="Assets\Scriptsss\Box.cs" />
      <Compile Include="Assets\Scriptsss\BoxDesplay.cs" />
      <Compile Include="Assets\Scriptsss\CameraFollow.cs" />
-     <Compile Include="Assets\Scriptsss\ChangeSpeed.cs" />
-     <Compile Include="Assets\Scriptsss\Data.cs" />
-     <Compile Include="Assets\Scriptsss\GameData.cs" />
      <Compile Include="Assets\Scriptsss\IdleBehaves.cs" />
      <Compile Include="Assets\Scriptsss\PlayerMoveScript.cs" />
-     <Compile Include="Assets\Scriptsss\StaticVar.cs" />
-     <None Include="Assets\Scripts\Unite2017\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -112,10 +79,6 @@
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{4090AB14-0DC2-B7B5-786B-AFA59DD3859A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

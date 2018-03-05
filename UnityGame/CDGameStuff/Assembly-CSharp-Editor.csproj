@@ -54,9 +54,6 @@
      <Compile Include="Assets\Editor\FMODMigrationUtil.cs" />
      <Compile Include="Assets\GoogleVR\Editor\FmodGvrAudioRoomEditor.cs" />
      <Compile Include="Assets\ResonanceAudio\Editor\FmodResonanceAudioRoomEditor.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Events\Editor\EventEditor.cs" />
-     <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\Editor\FloatReferenceDrawer.cs" />
-     <None Include="Assets\Scripts\Unite2017\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
