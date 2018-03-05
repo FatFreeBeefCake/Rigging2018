@@ -56,6 +56,9 @@
      <Compile Include="Assets\Scriptsss\Box.cs" />
      <Compile Include="Assets\Scriptsss\BoxDesplay.cs" />
      <Compile Include="Assets\Scriptsss\CameraFollow.cs" />
+     <Compile Include="Assets\Scriptsss\ClickEvents.cs" />
+     <Compile Include="Assets\Scriptsss\ClickEventsIdle.cs" />
+     <Compile Include="Assets\Scriptsss\ClickEventsJump.cs" />
      <Compile Include="Assets\Scriptsss\IdleBehaves.cs" />
      <Compile Include="Assets\Scriptsss\Player.cs" />
      <Compile Include="Assets\Scriptsss\PlayerMoveScript.cs" />
