@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Editor\FMODMigrationUtil.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\FmodGvrAudioRoomEditor.cs" />
+     <Compile Include="Assets\ResonanceAudio\Editor\FmodResonanceAudioRoomEditor.cs" />
      <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Events\Editor\EventEditor.cs" />
      <Compile Include="Assets\Scripts\Unite2017\Assets\Code\Variables\Editor\FloatReferenceDrawer.cs" />
      <None Include="Assets\Scripts\Unite2017\ProjectSettings\ProjectVersion.txt" />
@@ -116,8 +119,12 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4090AB14-0DC2-B7B5-786B-AFA59DD3859A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{EF225D57-1CF5-0F00-705F-A37C862285AD}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{CF4D72B9-3C70-E0F8-0C6D-8801C537F17D}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
