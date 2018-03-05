@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scriptsss\BoxDesplay.cs" />
      <Compile Include="Assets\Scriptsss\CameraFollow.cs" />
      <Compile Include="Assets\Scriptsss\IdleBehaves.cs" />
+     <Compile Include="Assets\Scriptsss\Player.cs" />
      <Compile Include="Assets\Scriptsss\PlayerMoveScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

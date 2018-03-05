@@ -10,16 +10,24 @@ public class PlayerMoveScript : MonoBehaviour {
 
     CharacterController cc;
 
+    public Player PP;
+
     Vector3 tempMove;
 
     Vector3 Fall;
 
     private UnityAction OnLandAction;
 
-    public float speed = 0.5f;
-    public float gravity = 40;
-    public float JumpHeight = 100;
-    public float pushForce = 2.0f;
+    public Text Name;
+    public Text THealth;
+    public Text TPower;
+
+    private float gravity = 40;
+
+    private float speed;
+    private float JumpHeight;
+    private float pushForce;
+    private float Rotate;
     public int Health, MaxHealth;
 
 
@@ -28,11 +36,21 @@ public class PlayerMoveScript : MonoBehaviour {
     {
 
         cc = GetComponent<CharacterController>();
+
+        Name.text = PP.name;
+        THealth.text = PP.Health.ToString();
+        TPower.text = PP.Power.ToString();
+
+
+        speed = PP.Speed;
+        JumpHeight = PP.JumpSpeed;
+        Rotate = PP.RotSpeed;
+        pushForce = PP.PushForce;
     }
 
     void Update()
     {
-        transform.Rotate(0, Input.GetAxis("Rotate") * 60 * Time.deltaTime, 0);
+        transform.Rotate(0, Input.GetAxis("Rotate") * Rotate * Time.deltaTime, 0);
         if (cc.isGrounded)
         {
             tempMove = new Vector3(0, 0, Input.GetAxis("Vertical"));
