@@ -8,6 +8,8 @@ public class Box : ScriptableObject {
     public Vector3 Size;
     public new string name;
 
+    public string Animation;
+
     public Color color;
 
     public int health;

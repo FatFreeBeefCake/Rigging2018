@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Size: {x: 1.5, y: 1.5, z: 1.5}
   name: Big
+  Animation: Jump
   color: {r: 1, g: 0, b: 0, a: 0}
   health: 10
   power: 10

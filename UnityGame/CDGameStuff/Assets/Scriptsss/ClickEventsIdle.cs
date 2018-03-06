@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class ClickEventsIdle : MonoBehaviour {
 
+    public Box box;
     public Animator Animations;
+    public string anim;
 
     void Start()
     {
+        anim = box.Animation;
     }
     private void OnMouseDown()
     {
         if (GameObject.FindWithTag("Idle"))
         {
-            Animations.SetBool("Idle", true);
+            Animations.SetBool(anim , true);
         }
     }
 
